@@ -12,6 +12,7 @@ class AllahuAkbarViewController: UIViewController {
     @IBOutlet weak var LDzikir: UILabel!
     @IBOutlet weak var LStepper: UIStepper!
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
+         LDzikir.text = Int(sender.value).description
     }
     
     override func viewDidLoad() {

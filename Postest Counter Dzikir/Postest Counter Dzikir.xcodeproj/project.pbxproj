@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC7B36631F9D9919009F25F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B36621F9D9919009F25F3 /* AppDelegate.swift */; };
+		AC7B36651F9D9919009F25F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B36641F9D9919009F25F3 /* ViewController.swift */; };
+		AC7B36681F9D9919009F25F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7B36661F9D9919009F25F3 /* Main.storyboard */; };
+		AC7B366A1F9D9919009F25F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7B36691F9D9919009F25F3 /* Assets.xcassets */; };
+		AC7B366D1F9D9919009F25F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7B366B1F9D9919009F25F3 /* LaunchScreen.storyboard */; };
+		AC7B36781F9D9919009F25F3 /* Postest_Counter_DzikirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B36771F9D9919009F25F3 /* Postest_Counter_DzikirTests.swift */; };
+		AC7B36831F9D9919009F25F3 /* Postest_Counter_DzikirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B36821F9D9919009F25F3 /* Postest_Counter_DzikirUITests.swift */; };
+		AC7B369A1F9D9F7C009F25F3 /* DzikirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B36991F9D9F7C009F25F3 /* DzikirViewController.swift */; };
+		AC7B369C1F9DA059009F25F3 /* SubhanallahViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B369B1F9DA059009F25F3 /* SubhanallahViewController.swift */; };
+		AC7B369E1F9DA4A1009F25F3 /* AlahmdulillahViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B369D1F9DA4A1009F25F3 /* AlahmdulillahViewController.swift */; };
+		AC7B36A01F9DA52B009F25F3 /* ALHAMDULILLAHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B369F1F9DA52B009F25F3 /* ALHAMDULILLAHViewController.swift */; };
+		AC7B36A21F9DA948009F25F3 /* AllahuAkbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B36A11F9DA948009F25F3 /* AllahuAkbarViewController.swift */; };
+		AC7B36A41F9DA9B7009F25F3 /* HamdalahViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B36A31F9DA9B7009F25F3 /* HamdalahViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC7B36741F9D9919009F25F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC7B36571F9D9919009F25F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC7B365E1F9D9919009F25F3;
+			remoteInfo = "Postest Counter Dzikir";
+		};
+		AC7B367F1F9D9919009F25F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC7B36571F9D9919009F25F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC7B365E1F9D9919009F25F3;
+			remoteInfo = "Postest Counter Dzikir";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC7B365F1F9D9919009F25F3 /* Postest Counter Dzikir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Postest Counter Dzikir.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7B36621F9D9919009F25F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC7B36641F9D9919009F25F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC7B36671F9D9919009F25F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC7B36691F9D9919009F25F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC7B366C1F9D9919009F25F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC7B366E1F9D9919009F25F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7B36731F9D9919009F25F3 /* Postest Counter DzikirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Postest Counter DzikirTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7B36771F9D9919009F25F3 /* Postest_Counter_DzikirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postest_Counter_DzikirTests.swift; sourceTree = "<group>"; };
+		AC7B36791F9D9919009F25F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7B367E1F9D9919009F25F3 /* Postest Counter DzikirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Postest Counter DzikirUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7B36821F9D9919009F25F3 /* Postest_Counter_DzikirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postest_Counter_DzikirUITests.swift; sourceTree = "<group>"; };
+		AC7B36841F9D9919009F25F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7B36961F9D9DA0009F25F3 /* kaligrafi alhamdulillah-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kaligrafi alhamdulillah-0.jpg"; sourceTree = "<group>"; };
+		AC7B36971F9D9DA1009F25F3 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		AC7B36981F9D9DA1009F25F3 /* allahuAkbar ,.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "allahuAkbar ,.jpg"; sourceTree = "<group>"; };
+		AC7B36991F9D9F7C009F25F3 /* DzikirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DzikirViewController.swift; sourceTree = "<group>"; };
+		AC7B369B1F9DA059009F25F3 /* SubhanallahViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubhanallahViewController.swift; sourceTree = "<group>"; };
+		AC7B369D1F9DA4A1009F25F3 /* AlahmdulillahViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlahmdulillahViewController.swift; sourceTree = "<group>"; };
+		AC7B369F1F9DA52B009F25F3 /* ALHAMDULILLAHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALHAMDULILLAHViewController.swift; sourceTree = "<group>"; };
+		AC7B36A11F9DA948009F25F3 /* AllahuAkbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllahuAkbarViewController.swift; sourceTree = "<group>"; };
+		AC7B36A31F9DA9B7009F25F3 /* HamdalahViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamdalahViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC7B365C1F9D9919009F25F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7B36701F9D9919009F25F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7B367B1F9D9919009F25F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC7B36561F9D9919009F25F3 = {
+			isa = PBXGroup;
+			children = (
+				AC7B36611F9D9919009F25F3 /* Postest Counter Dzikir */,
+				AC7B36761F9D9919009F25F3 /* Postest Counter DzikirTests */,
+				AC7B36811F9D9919009F25F3 /* Postest Counter DzikirUITests */,
+				AC7B36601F9D9919009F25F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC7B36601F9D9919009F25F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC7B365F1F9D9919009F25F3 /* Postest Counter Dzikir.app */,
+				AC7B36731F9D9919009F25F3 /* Postest Counter DzikirTests.xctest */,
+				AC7B367E1F9D9919009F25F3 /* Postest Counter DzikirUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC7B36611F9D9919009F25F3 /* Postest Counter Dzikir */ = {
+			isa = PBXGroup;
+			children = (
+				AC7B36621F9D9919009F25F3 /* AppDelegate.swift */,
+				AC7B36641F9D9919009F25F3 /* ViewController.swift */,
+				AC7B36661F9D9919009F25F3 /* Main.storyboard */,
+				AC7B36981F9D9DA1009F25F3 /* allahuAkbar ,.jpg */,
+				AC7B36971F9D9DA1009F25F3 /* images.jpg */,
+				AC7B36961F9D9DA0009F25F3 /* kaligrafi alhamdulillah-0.jpg */,
+				AC7B36691F9D9919009F25F3 /* Assets.xcassets */,
+				AC7B366B1F9D9919009F25F3 /* LaunchScreen.storyboard */,
+				AC7B366E1F9D9919009F25F3 /* Info.plist */,
+				AC7B36991F9D9F7C009F25F3 /* DzikirViewController.swift */,
+				AC7B369B1F9DA059009F25F3 /* SubhanallahViewController.swift */,
+				AC7B369D1F9DA4A1009F25F3 /* AlahmdulillahViewController.swift */,
+				AC7B369F1F9DA52B009F25F3 /* ALHAMDULILLAHViewController.swift */,
+				AC7B36A11F9DA948009F25F3 /* AllahuAkbarViewController.swift */,
+				AC7B36A31F9DA9B7009F25F3 /* HamdalahViewController.swift */,
+			);
+			path = "Postest Counter Dzikir";
+			sourceTree = "<group>";
+		};
+		AC7B36761F9D9919009F25F3 /* Postest Counter DzikirTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC7B36771F9D9919009F25F3 /* Postest_Counter_DzikirTests.swift */,
+				AC7B36791F9D9919009F25F3 /* Info.plist */,
+			);
+			path = "Postest Counter DzikirTests";
+			sourceTree = "<group>";
+		};
+		AC7B36811F9D9919009F25F3 /* Postest Counter DzikirUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC7B36821F9D9919009F25F3 /* Postest_Counter_DzikirUITests.swift */,
+				AC7B36841F9D9919009F25F3 /* Info.plist */,
+			);
+			path = "Postest Counter DzikirUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC7B365E1F9D9919009F25F3 /* Postest Counter Dzikir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7B36871F9D9919009F25F3 /* Build configuration list for PBXNativeTarget "Postest Counter Dzikir" */;
+			buildPhases = (
+				AC7B365B1F9D9919009F25F3 /* Sources */,
+				AC7B365C1F9D9919009F25F3 /* Frameworks */,
+				AC7B365D1F9D9919009F25F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Postest Counter Dzikir";
+			productName = "Postest Counter Dzikir";
+			productReference = AC7B365F1F9D9919009F25F3 /* Postest Counter Dzikir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC7B36721F9D9919009F25F3 /* Postest Counter DzikirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7B368A1F9D9919009F25F3 /* Build configuration list for PBXNativeTarget "Postest Counter DzikirTests" */;
+			buildPhases = (
+				AC7B366F1F9D9919009F25F3 /* Sources */,
+				AC7B36701F9D9919009F25F3 /* Frameworks */,
+				AC7B36711F9D9919009F25F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC7B36751F9D9919009F25F3 /* PBXTargetDependency */,
+			);
+			name = "Postest Counter DzikirTests";
+			productName = "Postest Counter DzikirTests";
+			productReference = AC7B36731F9D9919009F25F3 /* Postest Counter DzikirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC7B367D1F9D9919009F25F3 /* Postest Counter DzikirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7B368D1F9D9919009F25F3 /* Build configuration list for PBXNativeTarget "Postest Counter DzikirUITests" */;
+			buildPhases = (
+				AC7B367A1F9D9919009F25F3 /* Sources */,
+				AC7B367B1F9D9919009F25F3 /* Frameworks */,
+				AC7B367C1F9D9919009F25F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC7B36801F9D9919009F25F3 /* PBXTargetDependency */,
+			);
+			name = "Postest Counter DzikirUITests";
+			productName = "Postest Counter DzikirUITests";
+			productReference = AC7B367E1F9D9919009F25F3 /* Postest Counter DzikirUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC7B36571F9D9919009F25F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = AbiSayuti;
+				TargetAttributes = {
+					AC7B365E1F9D9919009F25F3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					AC7B36721F9D9919009F25F3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC7B365E1F9D9919009F25F3;
+					};
+					AC7B367D1F9D9919009F25F3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC7B365E1F9D9919009F25F3;
+					};
+				};
+			};
+			buildConfigurationList = AC7B365A1F9D9919009F25F3 /* Build configuration list for PBXProject "Postest Counter Dzikir" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC7B36561F9D9919009F25F3;
+			productRefGroup = AC7B36601F9D9919009F25F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC7B365E1F9D9919009F25F3 /* Postest Counter Dzikir */,
+				AC7B36721F9D9919009F25F3 /* Postest Counter DzikirTests */,
+				AC7B367D1F9D9919009F25F3 /* Postest Counter DzikirUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC7B365D1F9D9919009F25F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7B366D1F9D9919009F25F3 /* LaunchScreen.storyboard in Resources */,
+				AC7B366A1F9D9919009F25F3 /* Assets.xcassets in Resources */,
+				AC7B36681F9D9919009F25F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7B36711F9D9919009F25F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7B367C1F9D9919009F25F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC7B365B1F9D9919009F25F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7B369C1F9DA059009F25F3 /* SubhanallahViewController.swift in Sources */,
+				AC7B36651F9D9919009F25F3 /* ViewController.swift in Sources */,
+				AC7B36631F9D9919009F25F3 /* AppDelegate.swift in Sources */,
+				AC7B369A1F9D9F7C009F25F3 /* DzikirViewController.swift in Sources */,
+				AC7B369E1F9DA4A1009F25F3 /* AlahmdulillahViewController.swift in Sources */,
+				AC7B36A01F9DA52B009F25F3 /* ALHAMDULILLAHViewController.swift in Sources */,
+				AC7B36A41F9DA9B7009F25F3 /* HamdalahViewController.swift in Sources */,
+				AC7B36A21F9DA948009F25F3 /* AllahuAkbarViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7B366F1F9D9919009F25F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7B36781F9D9919009F25F3 /* Postest_Counter_DzikirTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7B367A1F9D9919009F25F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7B36831F9D9919009F25F3 /* Postest_Counter_DzikirUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC7B36751F9D9919009F25F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC7B365E1F9D9919009F25F3 /* Postest Counter Dzikir */;
+			targetProxy = AC7B36741F9D9919009F25F3 /* PBXContainerItemProxy */;
+		};
+		AC7B36801F9D9919009F25F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC7B365E1F9D9919009F25F3 /* Postest Counter Dzikir */;
+			targetProxy = AC7B367F1F9D9919009F25F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC7B36661F9D9919009F25F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC7B36671F9D9919009F25F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC7B366B1F9D9919009F25F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC7B366C1F9D9919009F25F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC7B36851F9D9919009F25F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC7B36861F9D9919009F25F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC7B36881F9D9919009F25F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Postest Counter Dzikir/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smkidnmi.Postest-Counter-Dzikir";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC7B36891F9D9919009F25F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Postest Counter Dzikir/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smkidnmi.Postest-Counter-Dzikir";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC7B368B1F9D9919009F25F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Postest Counter DzikirTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smkidnmi.Postest-Counter-DzikirTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Postest Counter Dzikir.app/Postest Counter Dzikir";
+			};
+			name = Debug;
+		};
+		AC7B368C1F9D9919009F25F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Postest Counter DzikirTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smkidnmi.Postest-Counter-DzikirTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Postest Counter Dzikir.app/Postest Counter Dzikir";
+			};
+			name = Release;
+		};
+		AC7B368E1F9D9919009F25F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Postest Counter DzikirUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smkidnmi.Postest-Counter-DzikirUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Postest Counter Dzikir";
+			};
+			name = Debug;
+		};
+		AC7B368F1F9D9919009F25F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Postest Counter DzikirUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smkidnmi.Postest-Counter-DzikirUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Postest Counter Dzikir";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC7B365A1F9D9919009F25F3 /* Build configuration list for PBXProject "Postest Counter Dzikir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7B36851F9D9919009F25F3 /* Debug */,
+				AC7B36861F9D9919009F25F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC7B36871F9D9919009F25F3 /* Build configuration list for PBXNativeTarget "Postest Counter Dzikir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7B36881F9D9919009F25F3 /* Debug */,
+				AC7B36891F9D9919009F25F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC7B368A1F9D9919009F25F3 /* Build configuration list for PBXNativeTarget "Postest Counter DzikirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7B368B1F9D9919009F25F3 /* Debug */,
+				AC7B368C1F9D9919009F25F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC7B368D1F9D9919009F25F3 /* Build configuration list for PBXNativeTarget "Postest Counter DzikirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7B368E1F9D9919009F25F3 /* Debug */,
+				AC7B368F1F9D9919009F25F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC7B36571F9D9919009F25F3 /* Project object */;
+}
